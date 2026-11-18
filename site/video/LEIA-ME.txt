@@ -1,0 +1,13 @@
+Solte aqui os vídeos dos Reels, em MP4 (H.264, vertical 9:16), com estes nomes:
+
+  biolab.mp4     BioLab (Ocara)
+  inove.mp4      Inove · Dra. Erica Moraes
+  glow.mp4       Glow Makeup
+  farmacia.mp4   Farmácia Albuquerque
+  mamute.mp4     Pizzaria do Mamute
+  dm.mp4         DM Multimarcas
+  oticas.mp4     Óticas Ver Prime
+  erica.mp4      Inove · procedimentos
+
+Enquanto o arquivo não existir, o site mostra "Vídeo em breve" no lugar do player.
+Só publique vídeos com autorização de cada cliente.

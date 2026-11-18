@@ -1,0 +1,3666 @@
+[
+ {
+  "command": "file.rename",
+  "params": {
+   "name": "Vinicius Capture — portfólio v2 (menu de jogo)"
+  }
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "frame",
+   "name": "01 — Capa · 1600x900",
+   "x": 0,
+   "y": 0,
+   "width": 1600,
+   "height": 900,
+   "props": {
+    "fill": "#02050B",
+    "clip": true
+   }
+  },
+  "as": "n1"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "brilho azul",
+   "x": 40,
+   "y": 0,
+   "width": 1520,
+   "height": 1520,
+   "props": {
+    "cornerRadius": 760,
+    "fills": [
+     {
+      "type": "radialGradient",
+      "stops": [
+       "#0C4C7C",
+       "#02050B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n2"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "VC",
+   "x": 130,
+   "y": 110,
+   "width": 90,
+   "height": 60,
+   "text": "VC",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 54,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n3"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "forma do retrato",
+   "x": 0,
+   "y": 330,
+   "width": 560,
+   "height": 340,
+   "props": {
+    "cornerRadius": [
+     0,
+     170,
+     170,
+     0
+    ],
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#C98A54",
+       "#8A5A3B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n4"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "retrato (placeholder)",
+   "x": 90,
+   "y": 355,
+   "width": 330,
+   "height": 290,
+   "props": {
+    "cornerRadius": 24,
+    "fill": "#06182B",
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n5"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "RETRATO DE ESTÚDIO substituir pelo original (direi",
+   "x": 90,
+   "y": 478,
+   "width": 330,
+   "height": 55,
+   "text": "RETRATO DE ESTÚDIO\nsubstituir pelo original\n(direitos do fotógrafo)",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n6"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PORTFÓLIO",
+   "x": 600,
+   "y": 300,
+   "width": 760,
+   "height": 424,
+   "text": "PORTFÓLIO",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 210,
+    "fontStyle": "Bold",
+    "fill": "#D5D9DF",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n7"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "2026",
+   "x": 1330,
+   "y": 330,
+   "width": 240,
+   "height": 116,
+   "text": "2026",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 112,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n8"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "quadradinho",
+   "x": 746,
+   "y": 580,
+   "width": 14,
+   "height": 14,
+   "props": {
+    "cornerRadius": 0,
+    "fill": "#E8EDF3"
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n9"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "VIDEOMAKER & CREATOR MOBILE",
+   "x": 770,
+   "y": 576,
+   "width": 420,
+   "height": 22,
+   "text": "VIDEOMAKER & CREATOR MOBILE",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Medium",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n10"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "INICIAR",
+   "x": 650,
+   "y": 690,
+   "width": 300,
+   "height": 24,
+   "text": "INICIAR",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Medium",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n11"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PROJETOS",
+   "x": 650,
+   "y": 736,
+   "width": 300,
+   "height": 24,
+   "text": "PROJETOS",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Medium",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n12"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "CONTATO",
+   "x": 650,
+   "y": 782,
+   "width": 300,
+   "height": 24,
+   "text": "CONTATO",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Medium",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n13"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Estudo visual · fotos e vídeos são placeholders, s",
+   "x": 70,
+   "y": 860,
+   "width": 900,
+   "height": 16,
+   "text": "Estudo visual · fotos e vídeos são placeholders, sujeitos a autorização",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 11,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n1"
+   }
+  },
+  "as": "n14"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "frame",
+   "name": "02 — Perfil · 1600x900",
+   "x": 1700,
+   "y": 0,
+   "width": 1600,
+   "height": 900,
+   "props": {
+    "fill": "#02050B",
+    "clip": true
+   }
+  },
+  "as": "n15"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "brilho azul",
+   "x": 40,
+   "y": 220,
+   "width": 680,
+   "height": 680,
+   "props": {
+    "cornerRadius": 340,
+    "fills": [
+     {
+      "type": "radialGradient",
+      "stops": [
+       "#0C4C7C",
+       "#02050B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n16"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "brilho azul",
+   "x": 1120,
+   "y": -280,
+   "width": 760,
+   "height": 760,
+   "props": {
+    "cornerRadius": 380,
+    "fills": [
+     {
+      "type": "radialGradient",
+      "stops": [
+       "#0A2F4F",
+       "#02050B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n17"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "aba ativa",
+   "x": 600,
+   "y": 56,
+   "width": 120,
+   "height": 34,
+   "props": {
+    "cornerRadius": 17,
+    "fill": "#A9D1F5"
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n18"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PERFIL",
+   "x": 600,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "PERFIL",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n19"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PROJETOS",
+   "x": 740,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "PROJETOS",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n20"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "CONTATO",
+   "x": 880,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "CONTATO",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n21"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "VC",
+   "x": 70,
+   "y": 50,
+   "width": 90,
+   "height": 60,
+   "text": "VC",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 54,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n22"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "OLÁ, EU SOU",
+   "x": 140,
+   "y": 150,
+   "width": 400,
+   "height": 30,
+   "text": "OLÁ, EU SOU",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 24,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n23"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "VINICIUS",
+   "x": 140,
+   "y": 184,
+   "width": 400,
+   "height": 74,
+   "text": "VINICIUS",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 70,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n24"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "retrato (placeholder)",
+   "x": 160,
+   "y": 290,
+   "width": 440,
+   "height": 540,
+   "props": {
+    "cornerRadius": 28,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#C98A54",
+       "#8A5A3B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n25"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "RETRATO substituir pelo original",
+   "x": 160,
+   "y": 520,
+   "width": 440,
+   "height": 38,
+   "text": "RETRATO\nsubstituir pelo original",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n26"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "SOBRE MIM",
+   "x": 760,
+   "y": 140,
+   "width": 700,
+   "height": 50,
+   "text": "SOBRE MIM",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 46,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n27"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Videomaker e creator mobile. Conteúdo que conecta ",
+   "x": 760,
+   "y": 198,
+   "width": 720,
+   "height": 85,
+   "text": "Videomaker e creator mobile. Conteúdo que conecta marcas, pessoas e histórias. Cada vídeo nasce com intenção, estratégia e responsabilidade: eu capto, dirijo, roteirizo, edito, reviso e entrego.",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 18,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "150%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n28"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "FERRAMENTAS",
+   "x": 760,
+   "y": 330,
+   "width": 500,
+   "height": 38,
+   "text": "FERRAMENTAS",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 34,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n29"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "ferramenta",
+   "x": 760,
+   "y": 384,
+   "width": 74,
+   "height": 74,
+   "props": {
+    "cornerRadius": 18,
+    "fill": "#E8EDF3"
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n30"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "CapCut",
+   "x": 760,
+   "y": 408,
+   "width": 74,
+   "height": 24,
+   "text": "CapCut",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 14,
+    "fontStyle": "SemiBold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n31"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "ferramenta",
+   "x": 852,
+   "y": 384,
+   "width": 74,
+   "height": 74,
+   "props": {
+    "cornerRadius": 18,
+    "fill": "none",
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n32"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "+",
+   "x": 852,
+   "y": 405,
+   "width": 74,
+   "height": 24,
+   "text": "+",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 22,
+    "fontStyle": "SemiBold",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n33"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "ferramenta",
+   "x": 944,
+   "y": 384,
+   "width": 74,
+   "height": 74,
+   "props": {
+    "cornerRadius": 18,
+    "fill": "none",
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n34"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "+",
+   "x": 944,
+   "y": 405,
+   "width": 74,
+   "height": 24,
+   "text": "+",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 22,
+    "fontStyle": "SemiBold",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n35"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "ferramenta",
+   "x": 1036,
+   "y": 384,
+   "width": 74,
+   "height": 74,
+   "props": {
+    "cornerRadius": 18,
+    "fill": "none",
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n36"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "+",
+   "x": 1036,
+   "y": 405,
+   "width": 74,
+   "height": 24,
+   "text": "+",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 22,
+    "fontStyle": "SemiBold",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n37"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "ferramenta",
+   "x": 1128,
+   "y": 384,
+   "width": 74,
+   "height": 74,
+   "props": {
+    "cornerRadius": 18,
+    "fill": "none",
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n38"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "+",
+   "x": 1128,
+   "y": 405,
+   "width": 74,
+   "height": 24,
+   "text": "+",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 22,
+    "fontStyle": "SemiBold",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n39"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "ferramenta",
+   "x": 1220,
+   "y": 384,
+   "width": 74,
+   "height": 74,
+   "props": {
+    "cornerRadius": 18,
+    "fill": "none",
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n40"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "+",
+   "x": 1220,
+   "y": 405,
+   "width": 74,
+   "height": 24,
+   "text": "+",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 22,
+    "fontStyle": "SemiBold",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n41"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Só o CapCut foi citado pelo Vinicius. [confirmar: ",
+   "x": 760,
+   "y": 468,
+   "width": 700,
+   "height": 18,
+   "text": "Só o CapCut foi citado pelo Vinicius. [confirmar: demais ferramentas]",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "Regular",
+    "fill": "#E5736B",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n42"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "SERVIÇOS",
+   "x": 760,
+   "y": 520,
+   "width": 340,
+   "height": 38,
+   "text": "SERVIÇOS",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 34,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n43"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "•  Cobertura de eventos",
+   "x": 760,
+   "y": 566,
+   "width": 340,
+   "height": 24,
+   "text": "•  Cobertura de eventos",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n44"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "•  Institucionais",
+   "x": 760,
+   "y": 596,
+   "width": 340,
+   "height": 24,
+   "text": "•  Institucionais",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n45"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "•  Reels e conteúdo",
+   "x": 760,
+   "y": 626,
+   "width": 340,
+   "height": 24,
+   "text": "•  Reels e conteúdo",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n46"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "CLIENTES",
+   "x": 1130,
+   "y": 520,
+   "width": 340,
+   "height": 38,
+   "text": "CLIENTES",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 34,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n47"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "•  BioLab",
+   "x": 1130,
+   "y": 566,
+   "width": 340,
+   "height": 24,
+   "text": "•  BioLab",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n48"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "•  Inove Odontologia",
+   "x": 1130,
+   "y": 596,
+   "width": 340,
+   "height": 24,
+   "text": "•  Inove Odontologia",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n49"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "•  Farmácia Albuquerque",
+   "x": 1130,
+   "y": 626,
+   "width": 340,
+   "height": 24,
+   "text": "•  Farmácia Albuquerque",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n50"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "•  Glow Makeup",
+   "x": 1130,
+   "y": 656,
+   "width": 340,
+   "height": 24,
+   "text": "•  Glow Makeup",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n51"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "[confirmar: autorização de cada cliente]",
+   "x": 1130,
+   "y": 690,
+   "width": 380,
+   "height": 18,
+   "text": "[confirmar: autorização de cada cliente]",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "Regular",
+    "fill": "#E5736B",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n52"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "REGIÃO",
+   "x": 760,
+   "y": 740,
+   "width": 340,
+   "height": 38,
+   "text": "REGIÃO",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 34,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n53"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Ocara · Quixeramobim · Beberibe · Aracoiaba [confi",
+   "x": 760,
+   "y": 786,
+   "width": 700,
+   "height": 24,
+   "text": "Ocara · Quixeramobim · Beberibe · Aracoiaba [confirmar]",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 17,
+    "fontStyle": "Regular",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n54"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Estudo visual · fotos e vídeos são placeholders, s",
+   "x": 70,
+   "y": 860,
+   "width": 900,
+   "height": 16,
+   "text": "Estudo visual · fotos e vídeos são placeholders, sujeitos a autorização",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 11,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n15"
+   }
+  },
+  "as": "n55"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "frame",
+   "name": "03 — Projetos · 1600x900",
+   "x": 3400,
+   "y": 0,
+   "width": 1600,
+   "height": 900,
+   "props": {
+    "fill": "#02050B",
+    "clip": true
+   }
+  },
+  "as": "n56"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "brilho azul",
+   "x": -300,
+   "y": -340,
+   "width": 840,
+   "height": 840,
+   "props": {
+    "cornerRadius": 420,
+    "fills": [
+     {
+      "type": "radialGradient",
+      "stops": [
+       "#0A3A60",
+       "#02050B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n57"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "brilho azul",
+   "x": 1140,
+   "y": 340,
+   "width": 840,
+   "height": 840,
+   "props": {
+    "cornerRadius": 420,
+    "fills": [
+     {
+      "type": "radialGradient",
+      "stops": [
+       "#0A3A60",
+       "#02050B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n58"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PERFIL",
+   "x": 600,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "PERFIL",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n59"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "aba ativa",
+   "x": 740,
+   "y": 56,
+   "width": 120,
+   "height": 34,
+   "props": {
+    "cornerRadius": 17,
+    "fill": "#A9D1F5"
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n60"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PROJETOS",
+   "x": 740,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "PROJETOS",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n61"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "CONTATO",
+   "x": 880,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "CONTATO",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n62"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "VC",
+   "x": 70,
+   "y": 50,
+   "width": 90,
+   "height": 60,
+   "text": "VC",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 54,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n63"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "RECAP DE PROJETOS 2026",
+   "x": 400,
+   "y": 126,
+   "width": 800,
+   "height": 80,
+   "text": "RECAP DE PROJETOS 2026",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 76,
+    "fontStyle": "Bold",
+    "fill": "#C9CED6",
+    "lineHeight": "100%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n64"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "aviso",
+   "x": 1130,
+   "y": 164,
+   "width": 200,
+   "height": 30,
+   "props": {
+    "cornerRadius": 15,
+    "fill": "none",
+    "stroke": "#E5736B",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n65"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "AUTORIZAÇÃO PENDENTE",
+   "x": 1130,
+   "y": 171,
+   "width": 200,
+   "height": 16,
+   "text": "AUTORIZAÇÃO PENDENTE",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "SemiBold",
+    "fill": "#E5736B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n66"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "BioLab · Ocara",
+   "x": 190,
+   "y": 250,
+   "width": 200,
+   "height": 355,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n67"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 204,
+   "y": 264,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n68"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 204,
+   "y": 269,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n69"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "BioLab · Ocara",
+   "x": 204,
+   "y": 553,
+   "width": 172,
+   "height": 34,
+   "text": "BioLab · Ocara",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n70"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Saúde · institucional",
+   "x": 204,
+   "y": 583,
+   "width": 172,
+   "height": 14,
+   "text": "Saúde · institucional",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n71"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Inove · Dra. Erica Moraes",
+   "x": 410,
+   "y": 250,
+   "width": 320,
+   "height": 170,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n72"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 424,
+   "y": 264,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n73"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 424,
+   "y": 269,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n74"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Inove · Dra. Erica Moraes",
+   "x": 424,
+   "y": 368,
+   "width": 292,
+   "height": 34,
+   "text": "Inove · Dra. Erica Moraes",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n75"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Saúde · texto em tela",
+   "x": 424,
+   "y": 398,
+   "width": 292,
+   "height": 14,
+   "text": "Saúde · texto em tela",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n76"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Inove · procedimentos",
+   "x": 750,
+   "y": 250,
+   "width": 320,
+   "height": 170,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n77"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 764,
+   "y": 264,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n78"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 764,
+   "y": 269,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n79"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Inove · procedimentos",
+   "x": 764,
+   "y": 368,
+   "width": 292,
+   "height": 34,
+   "text": "Inove · procedimentos",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n80"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Saúde · procedimento",
+   "x": 764,
+   "y": 398,
+   "width": 292,
+   "height": 14,
+   "text": "Saúde · procedimento",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n81"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Glow Makeup",
+   "x": 1090,
+   "y": 250,
+   "width": 320,
+   "height": 170,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n82"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 1104,
+   "y": 264,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n83"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 1104,
+   "y": 269,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n84"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Glow Makeup",
+   "x": 1104,
+   "y": 368,
+   "width": 292,
+   "height": 34,
+   "text": "Glow Makeup",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n85"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "1 ano · evento",
+   "x": 1104,
+   "y": 398,
+   "width": 292,
+   "height": 14,
+   "text": "1 ano · evento",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n86"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Farmácia Albuquerque",
+   "x": 410,
+   "y": 440,
+   "width": 205,
+   "height": 365,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n87"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 424,
+   "y": 454,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n88"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 424,
+   "y": 459,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n89"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Farmácia Albuquerque",
+   "x": 424,
+   "y": 753,
+   "width": 177,
+   "height": 34,
+   "text": "Farmácia Albuquerque",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n90"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Inauguração",
+   "x": 424,
+   "y": 783,
+   "width": 177,
+   "height": 14,
+   "text": "Inauguração",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n91"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Pizzaria do Mamute",
+   "x": 635,
+   "y": 440,
+   "width": 205,
+   "height": 365,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n92"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 649,
+   "y": 454,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n93"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 649,
+   "y": 459,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n94"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Pizzaria do Mamute",
+   "x": 649,
+   "y": 753,
+   "width": 177,
+   "height": 34,
+   "text": "Pizzaria do Mamute",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n95"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Gastronomia",
+   "x": 649,
+   "y": 783,
+   "width": 177,
+   "height": 14,
+   "text": "Gastronomia",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n96"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "DM Multimarcas",
+   "x": 860,
+   "y": 440,
+   "width": 205,
+   "height": 365,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n97"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 874,
+   "y": 454,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n98"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 874,
+   "y": 459,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n99"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "DM Multimarcas",
+   "x": 874,
+   "y": 753,
+   "width": 177,
+   "height": 34,
+   "text": "DM Multimarcas",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n100"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Varejo",
+   "x": 874,
+   "y": 783,
+   "width": 177,
+   "height": 14,
+   "text": "Varejo",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n101"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Óticas Ver Prime",
+   "x": 1085,
+   "y": 440,
+   "width": 325,
+   "height": 175,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n102"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 1099,
+   "y": 454,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n103"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 1099,
+   "y": 459,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n104"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Óticas Ver Prime",
+   "x": 1099,
+   "y": 563,
+   "width": 297,
+   "height": 34,
+   "text": "Óticas Ver Prime",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n105"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Varejo · atendimento",
+   "x": 1099,
+   "y": 593,
+   "width": 297,
+   "height": 14,
+   "text": "Varejo · atendimento",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n106"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Reel · bom produto",
+   "x": 190,
+   "y": 625,
+   "width": 200,
+   "height": 180,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n107"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 204,
+   "y": 639,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n108"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 204,
+   "y": 644,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n109"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Reel · bom produto",
+   "x": 204,
+   "y": 753,
+   "width": 172,
+   "height": 34,
+   "text": "Reel · bom produto",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n110"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Autoridade",
+   "x": 204,
+   "y": 783,
+   "width": 172,
+   "height": 14,
+   "text": "Autoridade",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n111"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Card · \"Não é caro…\"",
+   "x": 1085,
+   "y": 635,
+   "width": 325,
+   "height": 170,
+   "props": {
+    "cornerRadius": 10,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#0F4A78",
+       "#050B14"
+      ]
+     }
+    ],
+    "stroke": "#1B2D42",
+    "strokeWeight": 1
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n112"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "ellipse",
+   "name": "play",
+   "x": 1099,
+   "y": 649,
+   "width": 26,
+   "height": 26,
+   "props": {
+    "fill": "#C98A54",
+    "opacity": 0.9
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n113"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "▶",
+   "x": 1099,
+   "y": 654,
+   "width": 26,
+   "height": 16,
+   "text": "▶",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n114"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Card · \"Não é caro…\"",
+   "x": 1099,
+   "y": 753,
+   "width": 297,
+   "height": 34,
+   "text": "Card · \"Não é caro…\"",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n115"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Argumento de preço",
+   "x": 1099,
+   "y": 783,
+   "width": 297,
+   "height": 14,
+   "text": "Argumento de preço",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 10,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n116"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Capas e vídeos entram após autorização de cada cli",
+   "x": 70,
+   "y": 860,
+   "width": 900,
+   "height": 16,
+   "text": "Capas e vídeos entram após autorização de cada cliente · estudo visual",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 11,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n56"
+   }
+  },
+  "as": "n117"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "frame",
+   "name": "04 — Contato · 1600x900",
+   "x": 5100,
+   "y": 0,
+   "width": 1600,
+   "height": 900,
+   "props": {
+    "fill": "#02050B",
+    "clip": true
+   }
+  },
+  "as": "n118"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "brilho azul",
+   "x": 100,
+   "y": 180,
+   "width": 1400,
+   "height": 1400,
+   "props": {
+    "cornerRadius": 700,
+    "fills": [
+     {
+      "type": "radialGradient",
+      "stops": [
+       "#0A2F4F",
+       "#02050B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n119"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PERFIL",
+   "x": 600,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "PERFIL",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n120"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PROJETOS",
+   "x": 740,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "PROJETOS",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n121"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "aba ativa",
+   "x": 880,
+   "y": 56,
+   "width": 120,
+   "height": 34,
+   "props": {
+    "cornerRadius": 17,
+    "fill": "#A9D1F5"
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n122"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "CONTATO",
+   "x": 880,
+   "y": 64,
+   "width": 120,
+   "height": 20,
+   "text": "CONTATO",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n123"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "VC",
+   "x": 70,
+   "y": 50,
+   "width": 90,
+   "height": 60,
+   "text": "VC",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 54,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n124"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "CONTATO",
+   "x": 540,
+   "y": 170,
+   "width": 400,
+   "height": 60,
+   "text": "CONTATO",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 56,
+    "fontStyle": "Bold",
+    "fill": "#C9CED6",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n125"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "[confirmar: o WhatsApp é o número comercial?]",
+   "x": 540,
+   "y": 560,
+   "width": 420,
+   "height": 18,
+   "text": "[confirmar: o WhatsApp é o número comercial?]",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 12,
+    "fontStyle": "Regular",
+    "fill": "#E5736B",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n126"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "retrato circular (placeholder)",
+   "x": 150,
+   "y": 240,
+   "width": 340,
+   "height": 340,
+   "props": {
+    "cornerRadius": 170,
+    "fills": [
+     {
+      "type": "linearGradient",
+      "stops": [
+       "#C98A54",
+       "#8A5A3B"
+      ]
+     }
+    ]
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n127"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "RETRATO",
+   "x": 150,
+   "y": 396,
+   "width": 340,
+   "height": 18,
+   "text": "RETRATO",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Medium",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n128"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "VINICIUS",
+   "x": 150,
+   "y": 600,
+   "width": 340,
+   "height": 26,
+   "text": "VINICIUS",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 20,
+    "fontStyle": "Bold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 2
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n129"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Videomaker & Creator Mobile",
+   "x": 150,
+   "y": 630,
+   "width": 340,
+   "height": 18,
+   "text": "Videomaker & Creator Mobile",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 13,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n130"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Instagram",
+   "x": 540,
+   "y": 270,
+   "width": 56,
+   "height": 56,
+   "props": {
+    "cornerRadius": 28,
+    "fill": "#E8EDF3"
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n131"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "IG",
+   "x": 540,
+   "y": 288,
+   "width": 56,
+   "height": 20,
+   "text": "IG",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 15,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n132"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "INSTAGRAM",
+   "x": 616,
+   "y": 276,
+   "width": 330,
+   "height": 18,
+   "text": "INSTAGRAM",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 14,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1.5
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n133"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "@viniciuscapture",
+   "x": 616,
+   "y": 298,
+   "width": 380,
+   "height": 22,
+   "text": "@viniciuscapture",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 16,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n134"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "WhatsApp",
+   "x": 576,
+   "y": 360,
+   "width": 56,
+   "height": 56,
+   "props": {
+    "cornerRadius": 28,
+    "fill": "#E8EDF3"
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n135"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "WA",
+   "x": 576,
+   "y": 378,
+   "width": 56,
+   "height": 20,
+   "text": "WA",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 15,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n136"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "WHATSAPP",
+   "x": 652,
+   "y": 366,
+   "width": 330,
+   "height": 18,
+   "text": "WHATSAPP",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 14,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1.5
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n137"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "(85) 99273-6085",
+   "x": 652,
+   "y": 388,
+   "width": 380,
+   "height": 22,
+   "text": "(85) 99273-6085",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 16,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n138"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "Threads",
+   "x": 612,
+   "y": 450,
+   "width": 56,
+   "height": 56,
+   "props": {
+    "cornerRadius": 28,
+    "fill": "#E8EDF3"
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n139"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "TH",
+   "x": 612,
+   "y": 468,
+   "width": 56,
+   "height": 20,
+   "text": "TH",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 15,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n140"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "THREADS",
+   "x": 688,
+   "y": 456,
+   "width": 330,
+   "height": 18,
+   "text": "THREADS",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 14,
+    "fontStyle": "Medium",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 1.5
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n141"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "@viniciuscapture",
+   "x": 688,
+   "y": 478,
+   "width": 380,
+   "height": 22,
+   "text": "@viniciuscapture",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 16,
+    "fontStyle": "SemiBold",
+    "fill": "#E8EDF3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n142"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "OBRIGADO",
+   "x": 1000,
+   "y": 230,
+   "width": 560,
+   "height": 154,
+   "text": "OBRIGADO",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 150,
+    "fontStyle": "Bold",
+    "fill": "#C9CED6",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n143"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "2026",
+   "x": 1000,
+   "y": 380,
+   "width": 560,
+   "height": 154,
+   "text": "2026",
+   "props": {
+    "fontFamily": "DIN Condensed",
+    "fontSize": 150,
+    "fontStyle": "Bold",
+    "fill": "#8F98A5",
+    "lineHeight": "100%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n144"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "rectangle",
+   "name": "botão WhatsApp",
+   "x": 1000,
+   "y": 600,
+   "width": 440,
+   "height": 60,
+   "props": {
+    "cornerRadius": 30,
+    "fill": "#C98A54"
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n145"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "PEDIR ORÇAMENTO NO WHATSAPP",
+   "x": 1000,
+   "y": 619,
+   "width": 440,
+   "height": 22,
+   "text": "PEDIR ORÇAMENTO NO WHATSAPP",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 15,
+    "fontStyle": "Bold",
+    "fill": "#02050B",
+    "lineHeight": "130%",
+    "textAlign": "center",
+    "textAutoResize": "none",
+    "letterSpacing": 1
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n146"
+ },
+ {
+  "command": "node.create",
+  "params": {
+   "type": "text",
+   "name": "Estudo visual · fotos e vídeos são placeholders, s",
+   "x": 70,
+   "y": 860,
+   "width": 900,
+   "height": 16,
+   "text": "Estudo visual · fotos e vídeos são placeholders, sujeitos a autorização",
+   "props": {
+    "fontFamily": "Inter",
+    "fontSize": 11,
+    "fontStyle": "Regular",
+    "fill": "#8FA0B3",
+    "lineHeight": "130%",
+    "textAlign": "left",
+    "textAutoResize": "none",
+    "letterSpacing": 0
+   },
+   "parent": {
+    "$ref": "n118"
+   }
+  },
+  "as": "n147"
+ }
+]
